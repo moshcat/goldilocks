@@ -1,7 +1,7 @@
-<script setup>
-
-</script>
+<script setup></script>
 
 <template>
-  <p class="text-red-500">heloo</p>
+  <div class="container">
+    <p class="text-dark font-semibold">goldilocks</p>
+  </div>
 </template>
