@@ -1,7 +1,9 @@
-<script setup></script>
+<script setup>
+import UIButton from '@/components/ui/UIButton.vue'
+</script>
 
 <template>
   <div class="container">
-    <p class="text-dark font-semibold">goldilocks</p>
+    <UIButton>See pricing</UIButton>
   </div>
 </template>
