@@ -4,14 +4,21 @@ export default {
   theme: {
     extend: {
       colors: {
+        // base color
         'goldi-primary': '#f6e3da',
+        'goldi-bg': '#ece6e8',
         'goldi-blue': '#0000fe',
         'goldi-yellow': '#ffdb01',
         'goldi-orange': '#ff5a00',
 
-        'goldi-black': '#000000', //netral
-        'goldi-white': '#ffffff', //netral
-        'goldi-accent': '#99948f', // neural text
+        // neutral color
+        'goldi-black': '#000000',
+        'goldi-white': '#ffffff',
+        'goldi-accent': '#ddced3',
+
+        // status
+        'goldi-success': '#22c55e',
+        'goldi-danger': '#dc2626',
       },
     },
     fontFamily: {
